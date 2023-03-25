@@ -42,5 +42,6 @@
     "vector": "c",
     "__functional_base": "c",
     "algorithm": "c"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
