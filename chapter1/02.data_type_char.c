@@ -10,10 +10,11 @@ int main()
     
     char i = 0;
     
-    setlocale(LC_ALL, "chs");
-    __darwin_wchar_t zhong = L'中';
+    char *string = "中";
+    
 
-    wprintf(L"char 中: %c\n", zhong);
+    setlocale(LC_ALL, "chs");
+
     
     printf("char a: %d\n", a);
     printf("char char_0: %d\n", char_0);
